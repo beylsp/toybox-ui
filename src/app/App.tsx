@@ -1,7 +1,8 @@
-const App = (): JSX.Element => {
+import Header from "app/base/components/Header";
+export const App = (): JSX.Element => {
   return (
     <div id="toybox-ui">
-      <p>Hello, toybox!</p>
+      <Header />
     </div>
   );
 };
